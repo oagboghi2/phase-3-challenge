@@ -9,6 +9,18 @@ var btn6 = document.getElementById("btn6");
 var btn7 = document.getElementById("btn7");
 ///////////////////////////
 //var itemCount = document.getelementById("cart-item-count");
+//////////////////////////
+
+var showFrontLayer = function(){
+  document.getElementById('bg_mask').style.visibility = 'visible';
+  document.getElementById('frontlayer').style.visibility = 'visible';
+}
+
+var hideFrontLayer = function (){
+  document.getElementById('bg_mask').style.visibility = 'hidden';
+  document.getElementById('frontlayer').style.visibility = 'hidden';
+}
+
 
 var itemCount = 0;
 

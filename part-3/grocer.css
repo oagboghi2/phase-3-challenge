@@ -113,3 +113,33 @@ body {
 .item-price {
   flex: 0;
 }
+
+#bg_mask{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  margin-top: 0px;
+  width: 981px;
+  height: 610px;
+  z-index: 0;
+  visibility: hidden;
+}
+
+#frontLayer{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 70px 140px 175px 140px;
+  padding : 30px;
+  width: 700px;
+  height: 400px;
+  background-color: orange;
+  visibility: hidden;
+  border: 1px solid black;
+  z-index: 1;
+}
