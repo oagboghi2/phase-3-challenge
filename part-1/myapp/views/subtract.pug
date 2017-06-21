@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  a(href='http://localhost:3000/')
+      h1  Subtract
+  p
+  .col2
+        form(action='/api/subtract', method = 'post')
+          | a:
+          br
+          input(type='text', name='A', value='')
+          br
+          //input(name='search', type='submit', value='Submit')   
+          | b:
+          br
+          input(type='text', name='B', value='')
+          br
+          //input(name='search', type='submit', value='Submit')   
+          
+          br
+  button.btn
+    a(href='http://localhost:3000/api/subtract')
+      | CALCULATE 

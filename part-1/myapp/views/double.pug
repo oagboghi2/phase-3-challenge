@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  a(href='http://localhost:3000/')
+      h1  Add
+  p
+  .col2
+        form(action='/api/double', method = 'put')
+          | a:
+          br
+          input(type='text', name='title', value='')
+          br
+          //input(name='search', type='submit', value='Submit')   
+          
+          br
+  button.btn
+    a(href='http://localhost:3000/api/double')
+      | CALCULATE 
