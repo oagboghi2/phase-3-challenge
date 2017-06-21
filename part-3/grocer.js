@@ -7,7 +7,7 @@ var btn4 = document.getElementById("btn4");
 var btn5 = document.getElementById("btn5");
 var btn6 = document.getElementById("btn6");
 var btn7 = document.getElementById("btn7");
-/////////////////////////
+///////////////////////////
 //var itemCount = document.getelementById("cart-item-count");
 
 var itemCount = 0;

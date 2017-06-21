@@ -1,3 +1,4 @@
+
 DROP TABLE IF EXISTS groceries;
 CREATE TABLE contacts(
 id SERIAL PRIMARY KEY,

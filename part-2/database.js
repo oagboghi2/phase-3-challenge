@@ -21,6 +21,6 @@ countItemsInSection('dairy')
 
 
 mostRecentOrders(){
-  
+
 }
 //The SQL ORDER BY clause is used to sort the data in ascending or descending order,

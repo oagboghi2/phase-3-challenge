@@ -1,3 +1,4 @@
+
 insert into grocery (name, price, section) values ('Aluminum Foil','8.84','miscellaneous');
 insert into grocery (name, price, section) values ('Apples','10.81','produce');
 insert into grocery (name, price, section) values ('Bacon','9.01','meat');
