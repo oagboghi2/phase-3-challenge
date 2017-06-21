@@ -12,7 +12,6 @@ var btn7 = document.getElementById("btn7");
 
 var itemCount = 0;
 
-
 var btn1 = function(){
   itemCount+=(1.11);
   document.getElementById("cart-item-count").innerHTML = itemCount;
